@@ -1,0 +1,46 @@
+.card{
+    width: 12rem;
+    height: 15rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255,255,0.26);
+    border: 7px solid orange;
+    box-shadow: 0px 1px 3px 6px rgb(216, 179, 111);
+    border-radius: 8px;
+}
+.card span>:nth-of-type(2){
+    color: rgb(83, 83, 83);
+    font-size: 16px ;
+    
+}
+.card>img{
+    transform: scale(0.6);
+    margin-bottom: -2rem;
+    margin-top: -1rem;
+}
+.c-button{
+    background: #ffffffea;
+    box-shadow: 0px 19px 60px rgba(0,0,0,0.08);
+    border:none;
+    padding: 10px;
+    color: #5290FD;
+   
+}
+.c-button:hover{
+    background-color: aquamarine;
+}
+.card:hover{
+        cursor: pointer;
+        box-shadow: 1px 3px 5px 10px rgb(218, 240, 20);
+        border: none;
+        
+}
+@media screen and (max-width:480px){
+    .card{
+        width: 17rem;
+    }
+}

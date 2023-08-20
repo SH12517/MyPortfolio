@@ -1,0 +1,27 @@
+
+.App{
+   padding: 0.5rem 3.2rem;
+   overflow:hidden;
+   color: var(--black);  
+}
+.button{
+    border-radius: 34px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 11px 26px 11px 26px;
+    background: linear-gradient(180deg, #f0b209 26.71%,#cef037 99.36%);
+    box-shadow: 2px 3px 5px 3px rgba(229, 248, 61, 0.973);
+
+}
+.button:hover{
+  cursor: pointer;
+  background: white;
+  color: #0e0f0e;
+  border: 1px solid chocolate;
+}
+@media screen and (max-width:480px) {
+  .App{
+    padding: 0.5rem 1rem;
+  }
+}

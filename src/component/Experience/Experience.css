@@ -1,0 +1,36 @@
+.exerience{
+    margin-top:17rem;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin-bottom: 8rem;
+    height: 30vh;
+}
+.circle{
+  width: 5rem;
+  height: 5rem;
+    border: 5px solid yellow;
+    border-radius:100%;
+    text-align: center;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 18px;
+    background: linear-gradient(180deg, #e07f3e 26.71%,#dbf857 99.36%);
+
+}
+.achievement{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.achievement>:last-child{
+    color: rgba(248, 193, 74, 0.959);
+    font-weight: bold;
+}
+
+@media screen and (max-width:480px){
+    .exerience{
+          gap: 4rem;
+    }
+}
